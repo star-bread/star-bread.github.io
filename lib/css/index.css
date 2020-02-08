@@ -1,0 +1,150 @@
+@media (min-width: 1000px) {
+/* Right Panel */
+#right-panel{
+    display:sticky;
+    position: absolute;
+    right: 0;
+    height:auto;
+    width: 25%;
+    background: rgba(0, 0, 0, .7);
+}
+
+.right-panel-container {
+  width:auto;
+  margin-top:20px;
+  display:block;
+}
+
+.right-panel-img{
+  width:auto;
+  height:300px;
+  float:center;
+  text-align: center;
+}
+.right-panel-header{
+  color:#CCC;
+  width:auto;
+  float:center;
+  text-align: center;
+}
+.right-panel-text-container{
+  margin-left:10%;
+  margin-right:10%;
+}
+.right-panel-text{
+  color:#CCC;
+}
+
+
+/* Main Body */
+
+/* Titles */
+.title-area{
+    margin-left:15%;
+    width:60%;
+}
+
+#title-main-1 {
+  text-align:center;
+  display:inline-block;
+  font-size: 80px;
+  color: #222; 
+  margin-top:150px;
+}
+
+#title-main-2 {
+  text-align:center;
+  display:inline-block;
+  font-size: 80px;
+  color: #222; 
+  margin-top:80px;
+  margin-left:20%;
+
+}
+#title-main-3 {
+  text-align:center;
+  display:inline-block;
+  font-size: 80px;
+  color: #222; 
+  margin-top:80px;
+  margin-left:40%;
+
+}
+#title-main-4 {
+  text-align:left;
+  display:inline-block;
+  font-size: 50px;
+  color: #222; 
+  margin-top:80px;
+  margin-left:0%;
+
+}
+}
+
+@media (max-width: 1000px) {
+
+/* Right Panel */
+#right-panel{
+    position: relative;
+    right: 0;
+    height:auto;
+    width: 100%;
+    background: rgba(0, 0, 0, .7);
+    padding-bottom:20px;
+}
+
+
+.right-panel-img{
+  height:auto;
+  width:100%;
+  float:center;
+  text-align: center;
+}
+.right-panel-header{
+  color:#CCC;
+  float:center;
+  text-align: center;
+}
+.right-panel-text-container{
+  margin-left:10%;
+  margin-right:10%;
+}
+.right-panel-text{
+  color:#CCC;
+  font-size:22px;
+}
+
+/* Main Body */
+
+/* Titles */
+#title-main-1 {
+  text-align:center;
+  display:inline-block;
+  font-size: 40px;
+  color: #222; 
+  margin-top:30px;
+  margin-left:10%;
+}
+
+#title-main-2 {
+  text-align:center;
+  display:inline-block;
+  font-size: 40px;
+  color: #222; 
+  margin-top:15px;
+  margin-left:20%;
+}
+#title-main-3 {
+  text-align:center;
+  display:inline-block;
+  font-size: 40px;
+  color: #222; 
+  margin-top:15px;
+  margin-left:40%;
+}
+#title-main-4 {
+  height:0px;
+  width:0px;
+  overflow:hidden;
+}
+}

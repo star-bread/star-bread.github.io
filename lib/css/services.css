@@ -1,0 +1,49 @@
+#title-main-1 {
+    text-align:center;
+    display:inline-block;
+    font-size: 80px;
+    color: #222; 
+    margin-top:100px;
+}
+
+.main-text-area{
+    margin-left:25%;
+    width:45%;
+}
+
+#right-panel{
+    display:sticky;
+    position: absolute;
+    right: 0;
+    margin-top:200px;
+    height:auto;
+    width: 25%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.right-panel-container {
+  width:auto;
+  margin-top:20px;
+  display:block;
+}
+
+.right-panel-img{
+  width:auto;
+  height:300px;
+  float:center;
+  text-align: center;
+}
+.right-panel-header{
+  color:#CCC;
+  width:auto;
+  float:center;
+  text-align: center;
+}
+.right-panel-text-container{
+  margin-left:10%;
+  margin-right:10%;
+}
+.right-panel-text{
+  color:#CCC;
+}
+

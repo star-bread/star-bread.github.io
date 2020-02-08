@@ -1,0 +1,12 @@
+#title-main-1 {
+    text-align:center;
+    display:inline-block;
+    font-size: 80px;
+    color: #222; 
+    margin-top:150px;
+}
+
+.main-text-area{
+    margin-left:25%;
+    width:40%;
+}
