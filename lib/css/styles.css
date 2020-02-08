@@ -12,51 +12,7 @@
     font-family: "Univers-Basic-Bold", Arial, sans-serif;
 }
 
-.footer-spacing{
-  margin-top:120px;
-}
-/* FOOTER */
-.footer{
-  background: rgba(0, 0, 0, .7);
-  color:#CCC;
-  height:120px ;
-  width:100%;
-  margin:0px;
-  position: fixed;
-  bottom: 0; 
-  left: 0; 
-  right: 0;
-} 
 
-.line-item-phone{
-  text-align: left;
-  margin-left:20%;
-  margin-top:10px;
-}
-
-.line-item-email{
-  text-align: left;
-  margin-left:20%;
-  margin-top:10px;
-}
-
-.line-item-web{
-  text-align: left;
-  margin-left:20%;
-  margin-top:10px;
-  padding-left:20px;
-}
-.line-item-web{
-  text-align: left;
-  margin-left:20%;
-  margin-top:10px;
-  padding-left:20px;
-}
-
-.href-no-style{
-  color:inherit;
-  text-decoration: inherit;
-}
 /* NAVBAR / LOGOS */
 
 /* DEFAULT */
@@ -177,6 +133,52 @@
     width:300px;
     transition:1s
   }
+  /* FOOTER */
+.footer-spacing{
+  margin-top:120px;
+}
+
+.footer{
+  background: rgba(0, 0, 0, .7);
+  color:#CCC;
+  height:120px ;
+  width:100%;
+  margin:0px;
+  position: fixed;
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+} 
+
+.line-item-phone{
+  text-align: left;
+  margin-left:20%;
+  margin-top:10px;
+}
+
+.line-item-email{
+  text-align: left;
+  margin-left:20%;
+  margin-top:10px;
+}
+
+.line-item-web{
+  text-align: left;
+  margin-left:20%;
+  margin-top:10px;
+  padding-left:20px;
+}
+.line-item-web{
+  text-align: left;
+  margin-left:20%;
+  margin-top:10px;
+  padding-left:20px;
+}
+
+.href-no-style{
+  color:inherit;
+  text-decoration: inherit;
+}
 } 
 
 
@@ -292,6 +294,53 @@
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
   }
+  /* FOOTER */
+.footer-spacing{
+  margin-top:120px;
+}
+
+.footer{
+  background: rgba(0, 0, 0, .7);
+  color:#CCC;
+  height:400px ;
+  width:100%;
+  margin:0px;
+  position: fixed;
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  font-size:56px;
+} 
+
+.line-item-phone{
+  text-align: left;
+  margin-left:20%;
+  margin-top:10px;
+}
+
+.line-item-email{
+  text-align: left;
+  margin-left:20%;
+  margin-top:10px;
+}
+
+.line-item-web{
+  text-align: left;
+  margin-left:20%;
+  margin-top:10px;
+  padding-left:20px;
+}
+.line-item-web{
+  text-align: left;
+  margin-left:20%;
+  margin-top:10px;
+  padding-left:20px;
+}
+
+.href-no-style{
+  color:inherit;
+  text-decoration: inherit;
+}
 } 
 
 @keyframes fadeIn {
