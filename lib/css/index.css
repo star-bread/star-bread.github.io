@@ -104,6 +104,7 @@
   color:#CCC;
   float:center;
   text-align: center;
+  font-size:80px;
 }
 .right-panel-text-container{
   margin-left:10%;
@@ -111,7 +112,7 @@
 }
 .right-panel-text{
   color:#CCC;
-  font-size:22px;
+  font-size:46px;
 }
 
 /* Main Body */
@@ -120,7 +121,7 @@
 #title-main-1 {
   text-align:center;
   display:inline-block;
-  font-size: 40px;
+  font-size: 80px;
   color: #222; 
   margin-top:30px;
   margin-left:10%;
@@ -129,7 +130,7 @@
 #title-main-2 {
   text-align:center;
   display:inline-block;
-  font-size: 40px;
+  font-size: 80px;
   color: #222; 
   margin-top:15px;
   margin-left:20%;
@@ -137,7 +138,7 @@
 #title-main-3 {
   text-align:center;
   display:inline-block;
-  font-size: 40px;
+  font-size: 80px;
   color: #222; 
   margin-top:15px;
   margin-left:40%;
