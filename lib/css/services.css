@@ -1,4 +1,6 @@
-#title-main-1 {
+
+@media (min-width: 1000px) {
+  #title-main-1 {
     text-align:center;
     display:inline-block;
     font-size: 80px;
@@ -10,6 +12,7 @@
     margin-left:25%;
     width:45%;
 }
+
 
 #right-panel{
     display:sticky;
@@ -46,4 +49,65 @@
 .right-panel-text{
   color:#CCC;
 }
+}
 
+
+@media (max-width: 1000px) {
+  #title-main-1 {
+    text-align:center;
+    display:inline-block;
+    font-size: 90px;
+    color: #222; 
+    margin-top:100px;
+}
+
+.main-text-area{
+    margin-left:10%;
+    width:80%;
+}
+.subheader-area h2{
+  padding-top:15px;
+  padding-bottom:15px;
+  font-size:60px;
+}
+.subheader-area p{
+  padding-top:40px;
+  padding-bottom:40px;
+  font-size: 45px;
+}
+.subheader-area li{
+  font-size: 45px;
+}
+
+  /* Right Panel */
+  #right-panel{
+      position: relative;
+      right: 0;
+      height:auto;
+      width: 100%;
+      background: rgba(0, 0, 0, .7);
+      padding-bottom:20px;
+  }
+  
+  
+  .right-panel-img{
+    height:auto;
+    width:100%;
+    float:center;
+    text-align: center;
+  }
+  .right-panel-header{
+    color:#CCC;
+    float:center;
+    text-align: center;
+    font-size:80px;
+  }
+  .right-panel-text-container{
+    margin-left:10%;
+    margin-right:10%;
+  }
+  .right-panel-text{
+    color:#CCC;
+    font-size:46px;
+  }
+}
