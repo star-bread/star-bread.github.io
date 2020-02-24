@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1000px) {
   body{
-    background-image: linear-gradient(90deg, #888888 0.56%, #bbbbbb 0.56%, #bbbbbb 50%, #888888 50%, #888888 50.56%, #bbbbbb 50.56%, #bbbbbb 100%);
+    background-image: linear-gradient(90deg, #aaaaaa 0.56%, #bbbbbb 0.56%, #bbbbbb 50%, #aaaaaa 50%, #aaaaaa 50.56%, #bbbbbb 50.56%, #bbbbbb 100%);
     background-size: 354.00px 354.00px;
     animation:fade-in 1s;
     animation-fill-mode:forwards;
